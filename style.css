@@ -1,0 +1,75 @@
+body {
+  background-image: url("images/bois.jpg");
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'serif;';
+  font-weight: 300;
+  font-size: 25px;
+}
+h1,h2 {
+color: #ffffff;
+font-family: 'serif;';
+font-size: 40px;
+}
+a{
+text-decoration: none;
+color: #6CAE75;
+font-weight: bold;
+}
+a:hover {
+color: #ffffff;
+}
+.container {
+width: 700px;
+margin: 40px auto;
+}
+@media (max-width: 760px) {
+.container{
+width: 600px;
+}
+}
+@media (max-width: 500px) {
+.container{
+width: 400px;
+}
+}
+.card-white {
+background-color: #3D3A39;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+
+border-radius: 5px;
+margin: 20px 0px;
+text-align: center;
+}
+.img-circle {
+border-radius: 60%;
+}
+.btn-red {
+background-color: #de0d1f;
+color: #ffffff;
+padding: 12px 17px;
+border-radius: 5px;
+}
+.btn-red:hover {
+background-color: #c7424d;
+color: #c49da0;
+}
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+.list-inline i {
+font-size: 50px;
+color: rgb(190, 190, 190);
+}
+.list-inline i:hover {
+color: #6CAE75;
+}
+#introduction p {
+margin-bottom: 30px;
+}
